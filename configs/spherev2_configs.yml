@@ -1,0 +1,12 @@
+env: "sphere"
+solution_dim: 100
+archive_dims: [100, 100]
+ranges: null
+threshold_min: 0.0
+qd_score_offset: 0
+
+influence_ranges: [[-20, 20], [-20, 20]]
+objective_shift_prob: 1.0
+objective_shift_strength: 10
+measures_shift_prob: 1.0
+measures_shift_strength: 5

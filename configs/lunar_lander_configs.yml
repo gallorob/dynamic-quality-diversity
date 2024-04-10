@@ -1,0 +1,15 @@
+env: "lunar-lander"
+solution_dim: 20
+archive_dims: [50, 50]
+ranges: [[-1.0, 1.0], [-3.0, 0.0]]
+threshold_min: null
+qd_score_offset: -600
+
+truncation_timestep: 500
+
+wind_shift_prob: 1.0
+wind_shift_strength: 0.5
+turbulence_shift_prob: 1.0
+turbulence_shift_strength: 0.2
+
+total_iters: 1000

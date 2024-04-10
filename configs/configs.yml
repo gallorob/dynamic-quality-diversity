@@ -1,0 +1,31 @@
+sigma: 0.5
+
+rng_seed: 1234
+atol: 1.0e-08
+rtol: 1.0e-05
+
+time_shift_val: 10
+informed_shift: false
+
+plots_dir: './outputs'
+analysis_dir: './analysis'
+save_gif: false
+make_plots: true
+
+n_workers: 16
+threads_per_worker: 1
+
+custom_sampling: false
+
+detection_on: 'replacees'
+reevaluate_on: 'replacees'
+
+n_runs: 10
+batch_size: 1
+n_emitters: 1
+policies: ['no_updates', 'update_all', 'update_local_0', 'update_local_1', 'update_local_2']
+total_iters: 5000
+early_stopping: false
+cascade_max_depth: 10
+
+directed: false
